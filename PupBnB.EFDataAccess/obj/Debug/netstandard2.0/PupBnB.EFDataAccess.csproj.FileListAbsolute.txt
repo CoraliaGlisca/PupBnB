@@ -1,0 +1,12 @@
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\bin\Debug\netstandard2.0\PupBnB.ApplicationLogic.dll
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.csprojAssemblyReference.cache
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.AssemblyInfoInputs.cache
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.AssemblyInfo.cs
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\bin\Debug\netstandard2.0\PupBnB.EFDataAccess.deps.json
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\bin\Debug\netstandard2.0\PupBnB.EFDataAccess.dll
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\bin\Debug\netstandard2.0\PupBnB.EFDataAccess.pdb
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\bin\Debug\netstandard2.0\PupBnB.ApplicationLogic.pdb
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.csproj.CopyComplete
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.dll
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.pdb
+C:\Users\Cora\source\repos\PupBnB\PupBnB.EFDataAccess\obj\Debug\netstandard2.0\PupBnB.EFDataAccess.csproj.CoreCompileInputs.cache

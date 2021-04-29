@@ -1,0 +1,8 @@
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\bin\Debug\netstandard2.1\PupBnB.ApplicationLogic.deps.json
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\bin\Debug\netstandard2.1\PupBnB.ApplicationLogic.dll
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\bin\Debug\netstandard2.1\PupBnB.ApplicationLogic.pdb
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\obj\Debug\netstandard2.1\PupBnB.ApplicationLogic.csprojAssemblyReference.cache
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\obj\Debug\netstandard2.1\PupBnB.ApplicationLogic.AssemblyInfoInputs.cache
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\obj\Debug\netstandard2.1\PupBnB.ApplicationLogic.AssemblyInfo.cs
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\obj\Debug\netstandard2.1\PupBnB.ApplicationLogic.dll
+C:\Users\Cora\source\repos\PupBnB\PupBnB.ApplictionLogic\obj\Debug\netstandard2.1\PupBnB.ApplicationLogic.pdb

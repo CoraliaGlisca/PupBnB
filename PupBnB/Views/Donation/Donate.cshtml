@@ -1,0 +1,64 @@
+﻿@model PupBnB.Models.DonateViewModel
+@{
+    ViewData["Title"] = "Donate";
+}
+
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h2><span style="font-weight:bold">Happy puppies, happy people!</span></h2>
+
+    <p>
+        Given the fact that we are a non-guvernamental organisation, we rely on support from people like you to save and later on take care of the dogs in our shelters.
+    </p>
+    <p>
+        We kindly ask of you to donate as much as you can via PayPal. Every cent matters and will be used to support and develop this project.
+    </p>
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <form class="col-md-4" method="post">
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CardNumber"></label>
+                <input asp-for="CardNumber" type="text" class="form-control" />
+                <span asp-validation-for="CardNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount"></label>
+                <input asp-for="Amount" type="text" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn button2">Submit</button>
+            @if (!string.IsNullOrEmpty(ViewBag.message))
+            {
+                <span class="alert-success">@ViewBag.message</span>
+            }
+        </form>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+else
+{
+    <h2>Donate</h2>
+    <p>
+        You must be logged in to donate!
+        <a asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </p>
+    <p>
+        No account?
+        <a asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </p>
+}

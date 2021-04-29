@@ -1,0 +1,51 @@
+﻿@model DogViewModel
+@using PupBnB.Models
+
+<h2>Add a new dog</h2>
+
+<form asp-action="AddEditDog" role="form" enctype="multipart/form-data">
+    @await Html.PartialAsync("_ModalHeader", new ModalHeader { Heading = $"{(@Model.DogId == 0 ? "Add" : "Edit")} Dogs" })
+
+    <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label asp-for="Name" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="Name" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Age" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="Age" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Breeds" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="Breeds" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Genders" class="col-lg-3 col-sm-3 control-label"></label>
+        <div class="col-lg-6">
+            <input asp-for="Genders" class="form-control" />
+        </div>
+            @*<label asp-for="Genders" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <select asp-for="Genders" asp-items="Model.GenderList"></select>
+            </div>*@
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="col-lg-3 col-sm-3 control-label"></label>
+            <div class="col-lg-6">
+                <input asp-for="Description" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Image">Upload Image</label>
+            <input type="file" id="file" name="file" class="form-control" />
+        </div>
+
+    </div>
+    @await Html.PartialAsync("_ModalFooter", new ModalFooter { })
+</form>
